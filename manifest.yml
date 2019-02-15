@@ -1,0 +1,7 @@
+---
+applications:
+- name: ismail-test
+  memory: 256
+  instances: 1
+  docker:
+    image: uztemur/docker-autobuild-demo:latest
